@@ -19,5 +19,5 @@ attention_mask = inputs['attention_mask']
 with torch.no_grad():
     outputs = model(input_ids=input_ids, attention_mask=attention_mask)
 
-# 打印输出
+
 print(outputs)
